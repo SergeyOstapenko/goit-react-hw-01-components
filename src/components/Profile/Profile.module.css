@@ -1,0 +1,35 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 512px;
+    text-align: center;
+    border: 1px solid rgb(170, 161, 161);
+}
+
+.stats {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.name {
+    color: green;
+}
+
+.statsItem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(243, 235, 235);
+    border: 1px solid darkgrey;
+
+}
+
+.name {
+    color: black;
+    font-size: 20px;
+}
+

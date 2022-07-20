@@ -1,3 +1,25 @@
-.test {
-    background-color: blue;
+.container {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.statList {
+display: flex;
+list-style: none;
+padding: 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: hotpink;
+}
+
+.label {
+    margin-bottom: 5px;
 }
